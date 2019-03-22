@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "StringView.h"
+#import "AnimationView.h"
 @interface ViewController ()
 
 @end
@@ -19,8 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     
-    StringView *sv = [[StringView alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    sv.backgroundColor = [UIColor redColor];
+    AnimationView *sv = [[AnimationView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
     [self.view addSubview:sv];
 }
 

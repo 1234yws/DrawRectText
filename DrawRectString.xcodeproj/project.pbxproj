@@ -15,6 +15,8 @@
 		CAFCB6862244C3580066BCBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB6852244C3580066BCBC /* main.m */; };
 		CAFCB6902244C3580066BCBC /* DrawRectStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB68F2244C3580066BCBC /* DrawRectStringUITests.m */; };
 		CAFCB69F2244C4480066BCBC /* StringView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB69E2244C4480066BCBC /* StringView.m */; };
+		CAFCB6A12244C9560066BCBC /* ImageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB6A02244C9560066BCBC /* ImageIcon.png */; };
+		CAFCB6A42244DD450066BCBC /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB6A32244DD450066BCBC /* AnimationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,9 @@
 		CAFCB6912244C3580066BCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAFCB69D2244C4480066BCBC /* StringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringView.h; sourceTree = "<group>"; };
 		CAFCB69E2244C4480066BCBC /* StringView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringView.m; sourceTree = "<group>"; };
+		CAFCB6A02244C9560066BCBC /* ImageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ImageIcon.png; sourceTree = "<group>"; };
+		CAFCB6A22244DD450066BCBC /* AnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		CAFCB6A32244DD450066BCBC /* AnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +93,12 @@
 				CAFCB6772244C3570066BCBC /* AppDelegate.m */,
 				CAFCB6792244C3570066BCBC /* ViewController.h */,
 				CAFCB67A2244C3570066BCBC /* ViewController.m */,
+				CAFCB6A22244DD450066BCBC /* AnimationView.h */,
+				CAFCB6A32244DD450066BCBC /* AnimationView.m */,
 				CAFCB69D2244C4480066BCBC /* StringView.h */,
 				CAFCB69E2244C4480066BCBC /* StringView.m */,
 				CAFCB67C2244C3570066BCBC /* Main.storyboard */,
+				CAFCB6A02244C9560066BCBC /* ImageIcon.png */,
 				CAFCB67F2244C3580066BCBC /* Assets.xcassets */,
 				CAFCB6812244C3580066BCBC /* LaunchScreen.storyboard */,
 				CAFCB6842244C3580066BCBC /* Info.plist */,
@@ -191,6 +199,7 @@
 				CAFCB6832244C3580066BCBC /* LaunchScreen.storyboard in Resources */,
 				CAFCB6802244C3580066BCBC /* Assets.xcassets in Resources */,
 				CAFCB67E2244C3570066BCBC /* Main.storyboard in Resources */,
+				CAFCB6A12244C9560066BCBC /* ImageIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +221,7 @@
 				CAFCB69F2244C4480066BCBC /* StringView.m in Sources */,
 				CAFCB6862244C3580066BCBC /* main.m in Sources */,
 				CAFCB6782244C3570066BCBC /* AppDelegate.m in Sources */,
+				CAFCB6A42244DD450066BCBC /* AnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
