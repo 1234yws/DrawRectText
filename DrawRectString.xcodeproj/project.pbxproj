@@ -14,6 +14,7 @@
 		CAFCB6832244C3580066BCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAFCB6812244C3580066BCBC /* LaunchScreen.storyboard */; };
 		CAFCB6862244C3580066BCBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB6852244C3580066BCBC /* main.m */; };
 		CAFCB6902244C3580066BCBC /* DrawRectStringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB68F2244C3580066BCBC /* DrawRectStringUITests.m */; };
+		CAFCB69F2244C4480066BCBC /* StringView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAFCB69E2244C4480066BCBC /* StringView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CAFCB68B2244C3580066BCBC /* DrawRectStringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawRectStringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFCB68F2244C3580066BCBC /* DrawRectStringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawRectStringUITests.m; sourceTree = "<group>"; };
 		CAFCB6912244C3580066BCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAFCB69D2244C4480066BCBC /* StringView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringView.h; sourceTree = "<group>"; };
+		CAFCB69E2244C4480066BCBC /* StringView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				CAFCB6772244C3570066BCBC /* AppDelegate.m */,
 				CAFCB6792244C3570066BCBC /* ViewController.h */,
 				CAFCB67A2244C3570066BCBC /* ViewController.m */,
+				CAFCB69D2244C4480066BCBC /* StringView.h */,
+				CAFCB69E2244C4480066BCBC /* StringView.m */,
 				CAFCB67C2244C3570066BCBC /* Main.storyboard */,
 				CAFCB67F2244C3580066BCBC /* Assets.xcassets */,
 				CAFCB6812244C3580066BCBC /* LaunchScreen.storyboard */,
@@ -204,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAFCB67B2244C3570066BCBC /* ViewController.m in Sources */,
+				CAFCB69F2244C4480066BCBC /* StringView.m in Sources */,
 				CAFCB6862244C3580066BCBC /* main.m in Sources */,
 				CAFCB6782244C3570066BCBC /* AppDelegate.m in Sources */,
 			);

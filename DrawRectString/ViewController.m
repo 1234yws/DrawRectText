@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "StringView.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    StringView *sv = [[StringView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    sv.backgroundColor = [UIColor redColor];
+    [self.view addSubview:sv];
 }
-
 
 @end
